@@ -9,6 +9,10 @@ namespace WebDev3.CentiSoft.Core.Models
    // [DatabaseGenerated(DatabasedGenerated.Identity)]
     public class Project
     {
+        public Project()
+        {
+
+        }
         public int Id { get; set; }
         public string Name { get; set; }
         public DateTime DueDate { get; set; }

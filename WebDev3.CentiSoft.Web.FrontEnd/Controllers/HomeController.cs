@@ -37,5 +37,10 @@ namespace WebDev3.CentiSoft.Web.FrontEnd.Controllers
 
             return View();
         }
+
+        public ActionResult test()
+        {
+            return View();
+        }
     }
 }
