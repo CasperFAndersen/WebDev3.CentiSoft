@@ -47,7 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL\BaseRepository.cs" />
     <Compile Include="DAL\CentiSoftDbContext.cs" />
+    <Compile Include="DAL\DeveloperRepository.cs" />
     <Compile Include="Migrations\201803020950001_InitialCreate.cs" />
     <Compile Include="Migrations\201803020950001_InitialCreate.Designer.cs">
       <DependentUpon>201803020950001_InitialCreate.cs</DependentUpon>

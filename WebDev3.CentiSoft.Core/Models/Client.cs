@@ -12,7 +12,7 @@ namespace WebDev3.CentiSoft.Core.Models
         {
 
         }
-        public int id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Token { get; set; }
         public List<Customer> Customers { get; set; }
