@@ -47,9 +47,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DAL\BaseRepository.cs" />
+    <Compile Include="BLL\ClientFacade.cs" />
+    <Compile Include="BLL\CustomerFacade.cs" />
+    <Compile Include="BLL\DeveloperFacade.cs" />
+    <Compile Include="BLL\ProjectFacade.cs" />
+    <Compile Include="BLL\TaskFacade.cs" />
+    <Compile Include="Contracts\IClientFacade.cs" />
+    <Compile Include="Contracts\ICustomerFacade.cs" />
+    <Compile Include="Contracts\IDeveloperFacade.cs" />
+    <Compile Include="Contracts\IGenericRepository.cs" />
+    <Compile Include="Contracts\IProjectFacade.cs" />
+    <Compile Include="Contracts\ITaskFacade.cs" />
+    <Compile Include="Contracts\IUnitOfWorkData.cs" />
+    <Compile Include="DAL\EFRepository.cs" />
     <Compile Include="DAL\CentiSoftDbContext.cs" />
-    <Compile Include="DAL\DeveloperRepository.cs" />
+    <Compile Include="DAL\MemoryRepository.cs" />
     <Compile Include="Migrations\201803020950001_InitialCreate.cs" />
     <Compile Include="Migrations\201803020950001_InitialCreate.Designer.cs">
       <DependentUpon>201803020950001_InitialCreate.cs</DependentUpon>
@@ -66,9 +78,7 @@
     <Compile Include="Models\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />

@@ -47,21 +47,21 @@ namespace WebDev3.CentiSoft.Core.Migrations
                 new Client() { Id = 5, Name = "client5 name", Token = "xxxToken5" }
                 );
             //Tasks
-            context.Tasks.AddOrUpdate(x => x.Id,
-                new Task() { Id = 1, Name = "Task1 name", Description = "Task1 description", Created = DateTime.Now, Duration = 10, ProjectId = 1, Project givprojeckther, DeveloperId = 1, Developer = devloperher },
-                new Task() { Id = 2, Name = "Task2 name", Description = "Task2 description", Created = DateTime.Now, Duration = 20, ProjectId = 2, Project givprojeckther, DeveloperId = 2, Developer = devloperher },
-                new Task() { Id = 3, Name = "Task3 name", Description = "Task3 description", Created = DateTime.Now, Duration = 30, ProjectId = 3, Project givprojeckther, DeveloperId = 3, Developer = devloperher },
-                new Task() { Id = 4, Name = "Task4 name", Description = "Task4 description", Created = DateTime.Now, Duration = 40, ProjectId = 4, Project givprojeckther, DeveloperId = 4, Developer = devloperher },
-                new Task() { Id = 5, Name = "Task5 name", Description = "Task5 description", Created = DateTime.Now, Duration = 50, ProjectId = 5, Project givprojeckther, DeveloperId = 5, Developer = devloperher }
-                );
+            //context.Tasks.AddOrUpdate(x => x.Id,
+            //    new Task() { Id = 1, Name = "Task1 name", Description = "Task1 description", Created = DateTime.Now, Duration = 10, ProjectId = 1, Project givprojeckther, DeveloperId = 1, Developer = devloperher },
+            //    new Task() { Id = 2, Name = "Task2 name", Description = "Task2 description", Created = DateTime.Now, Duration = 20, ProjectId = 2, Project givprojeckther, DeveloperId = 2, Developer = devloperher },
+            //    new Task() { Id = 3, Name = "Task3 name", Description = "Task3 description", Created = DateTime.Now, Duration = 30, ProjectId = 3, Project givprojeckther, DeveloperId = 3, Developer = devloperher },
+            //    new Task() { Id = 4, Name = "Task4 name", Description = "Task4 description", Created = DateTime.Now, Duration = 40, ProjectId = 4, Project givprojeckther, DeveloperId = 4, Developer = devloperher },
+            //    new Task() { Id = 5, Name = "Task5 name", Description = "Task5 description", Created = DateTime.Now, Duration = 50, ProjectId = 5, Project givprojeckther, DeveloperId = 5, Developer = devloperher }
+            //    );
             //Projects
-            context.Projects.AddOrUpdate(x => x.Id,
-                new Project() { Id = 1, Name = "Project1 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = },
-                new Project() { Id = 1, Name = "Project2 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = },
-                new Project() { Id = 1, Name = "Project3 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = },
-                new Project() { Id = 1, Name = "Project4 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = },
-                new Project() { Id = 1, Name = "Project5 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = }
-                );
+            //context.Projects.AddOrUpdate(x => x.Id,
+            //    new Project() { Id = 1, Name = "Project1 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = },
+            //    new Project() { Id = 1, Name = "Project2 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = },
+            //    new Project() { Id = 1, Name = "Project3 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = },
+            //    new Project() { Id = 1, Name = "Project4 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = },
+            //    new Project() { Id = 1, Name = "Project5 name", DueDate = DateTime.Now, CustomerId = 1, Tasks = }
+            //    );
 
         }
 

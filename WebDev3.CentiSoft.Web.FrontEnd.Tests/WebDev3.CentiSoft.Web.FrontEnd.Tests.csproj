@@ -91,6 +91,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
+    <Compile Include="TestTEst.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -99,6 +100,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\WebDev3.CentiSoft.Core\WebDev3.CentiSoft.Core.csproj">
+      <Project>{c0504ccf-fa13-4ab9-a9dc-7bab1e192e76}</Project>
+      <Name>WebDev3.CentiSoft.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\WebDev3.CentiSoft.Web.FrontEnd\WebDev3.CentiSoft.Web.FrontEnd.csproj">
       <Project>{4E4CE5C7-0BF2-491B-A7A7-7916405B34C6}</Project>
       <Name>WebDev3.CentiSoft.Web.FrontEnd</Name>
