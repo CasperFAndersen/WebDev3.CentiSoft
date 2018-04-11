@@ -13,7 +13,8 @@ namespace WebDev3.CentiSoft.Core.DAL
     {
         private CentiSoftDbContext context;
         private IDbSet<T> dbSet;
-        public EFRepository()
+
+        public EFRepository(CentiSoftDbContext context)
         {
             context = new CentiSoftDbContext();
             dbSet = context.Set<T>();
